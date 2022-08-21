@@ -1,0 +1,24 @@
+.heading {
+    letter-spacing: 2px;
+    color: rgb(18, 133, 171);
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0px 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.cursor {
+    cursor: pointer;
+}
