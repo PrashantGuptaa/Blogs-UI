@@ -67,8 +67,6 @@ export default function SearchAppBar() {
             src="https://img.freepik.com/free-vector/atom-illustration-model-with-electrons-neutron-isolated_1284-53084.jpg?w=740&t=st=1661108887~exp=1661109487~hmac=407e21013e41d493df1aac5f0a383f56a8400a5257416866b00f41e5280a3b26"
             alt="logo"
             height="60"
-            // style={{ transform: 'scale(2)' }}
-            // width="8%"
           />
           <div className="heading"
           >

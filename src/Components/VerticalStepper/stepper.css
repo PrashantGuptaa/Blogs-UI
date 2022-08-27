@@ -1,0 +1,38 @@
+.stepper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.steps {
+  width: 10%;
+height:auto;
+  padding: 20px;
+  background: rgb(221, 225, 252);
+  background: linear-gradient(
+    0deg,
+    rgba(221, 225, 252, 1) 0%,
+    rgba(249, 249, 249, 1) 49%
+  );
+  box-shadow: 3px 2px 5px grey;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 60px;
+  width: 82%;
+  /* height: 15%; */
+  bottom: 0px !important;
+  left: 12%;
+  position: fixed;
+  background: rgb(221, 226, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(221, 226, 255, 1) 0%,
+    rgba(246, 246, 246, 1) 60%
+  );
+  box-shadow: 10px -2px 5px grey;
+}

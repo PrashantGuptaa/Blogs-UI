@@ -1,5 +1,5 @@
 import Home from "../Container/Home";
-import AddBlogForm from "../Container/AddBlogForm";
+import AddBlog from "../Container/AddBlog";
 import NotFound from "../Container/NotFound";
 
 const appRoutes = [
@@ -9,7 +9,7 @@ const appRoutes = [
   },
   {
     path: "/add-blogs",
-    element: AddBlogForm,
+    element: AddBlog,
   },
   {
     path: '*',
